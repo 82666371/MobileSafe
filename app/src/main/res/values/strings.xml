@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MobileSafe</string>
+
+    <string name="main_tools">首页</string>
+
+    <string name="main_optimization">打卡</string>
+
+    <string name="main_appmanager">应用</string>
+</resources>
