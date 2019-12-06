@@ -74,6 +74,8 @@ public class MainActivity extends Activity implements View.OnClickListener, View
         initContentView();
 
         initnew();
+
+
     }
 
 
@@ -105,14 +107,14 @@ public class MainActivity extends Activity implements View.OnClickListener, View
             public void onClick(View v) {
 
                 if (i == 0){
-                    SimpleDateFormat    sDateFormat1    =   new    SimpleDateFormat("hh:mm:ss");
-                    String    date1    =    sDateFormat1.format(new    java.util.Date());
-                    sb_time.setText(date1);
+                    SimpleDateFormat    sDateFormat    =   new    SimpleDateFormat("hh:mm:ss");
+                    String    date    =    sDateFormat.format(new    java.util.Date());
+                    sb_time.setText(date);
                     i++;
                 }else {
-                    SimpleDateFormat    sDateFormat1    =   new    SimpleDateFormat("hh:mm:ss");
-                    String    date1    =    sDateFormat1.format(new    java.util.Date());
-                    xb_time.setText(date1);
+                    SimpleDateFormat    sDateFormat    =   new    SimpleDateFormat("hh:mm:ss");
+                    String    date    =    sDateFormat.format(new    java.util.Date());
+                    xb_time.setText(date);
                     i = 0;
                 }
 
